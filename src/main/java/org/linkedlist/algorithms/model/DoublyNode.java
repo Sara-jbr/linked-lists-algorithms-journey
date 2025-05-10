@@ -1,4 +1,5 @@
-package org.linkedlist.algorithms.basic.model;
+package org.linkedlist.algorithms.model;
+
 
 public class DoublyNode {
     private int data;
@@ -13,10 +14,6 @@ public class DoublyNode {
 
     public int getData() {
         return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
     }
 
     public DoublyNode getNext() {

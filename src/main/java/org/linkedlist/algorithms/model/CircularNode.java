@@ -1,20 +1,16 @@
-package org.linkedlist.algorithms.basic.model;
+package org.linkedlist.algorithms.model;
 
 public class CircularNode {
-   private int data;
+    private int data;
     private CircularNode next;
 
     public CircularNode(int data) {
         this.data = data;
-        this.next = null;
+        this.next = this; // Circular reference
     }
 
     public int getData() {
         return data;
-    }
-
-    public void setData(int data) {
-        this.data = data;
     }
 
     public CircularNode getNext() {
